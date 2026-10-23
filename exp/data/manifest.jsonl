@@ -103,3 +103,4 @@
 {"phase":"session6-conclusion","artifact":"report/build-report.js","sha256":"34773c6361ae06db2c9a55b16b5c5dc0d3fc1ea6a552c99d668f5089f26fc113","lines":264,"schema_ver":"2","ts":"2026-10-23T11:46:00.919Z"}
 {"phase":"session7-public","artifact":"levers/bootstrap-fresh.sh","sha256":"a1b190f3fce74fe469febf7d7bedd3e96969d5b4701d8dc5dc3bc4e1257c279f","lines":70,"schema_ver":"2","ts":"2026-10-23T11:59:37.405Z"}
 {"phase":"session7-public","artifact":"data/status.md","sha256":"97feca1c6ec01eb34a96a535571b638ae18ec2337f881e900b676e0864c0623e","lines":72,"schema_ver":"2","ts":"2026-10-23T11:59:37.459Z"}
+{"phase":"session7-report-html","artifact":"report/mutation-testing-report.html","sha256":"340a3ba2a6f84187b0f54f0d5dec2d756660f2f8d62a2cda87a6b6c01a4c4c56","lines":215,"schema_ver":"2","ts":"2026-10-23T12:02:02.631Z"}
