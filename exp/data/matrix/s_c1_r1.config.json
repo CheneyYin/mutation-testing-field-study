@@ -1,0 +1,20 @@
+{
+  "testRunner": "vitest",
+  "reporters": [
+    "clear-text",
+    "json"
+  ],
+  "jsonReporter": {
+    "fileName": "/home/yanchengyu/expr/stryker-mutator/exp/data/matrix/s_c1_r1.report.json"
+  },
+  "mutate": [
+    "src/subParsers/makehtml/heading.js"
+  ],
+  "vitest": {
+    "related": false
+  },
+  "disableTypeChecks": false,
+  "concurrency": 1,
+  "timeoutMS": 5000,
+  "ignoreStatic": true
+}

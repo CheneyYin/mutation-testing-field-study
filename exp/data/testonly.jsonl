@@ -1,0 +1,9 @@
+{"sha":"e1eaa3549a9d1e71c7779c99737eb0e1de7116a1","subject":"test(helpers): cover the helper library with direct unit tests","test_paths":["test/unit/showdown.helpers.js"]}
+{"sha":"34dbc93a5f12f5cdf522266233e341b2ef4ecf0c","subject":"test(gfm): move skip reasons into the switch and drop bogus skips","test_paths":["test/functional/makehtml/testsuite.gfm.js"]}
+{"sha":"ae03aa7df7810c53de0b97043dc7441d0f710bcd","subject":"test(gfm): consolidate extension test sections","test_paths":["test/functional/makehtml/cases/gfm.testsuite.json"]}
+{"sha":"cdda4f037df00d3e40010a298645771311670e00","subject":"test(events): add generic subparser event-coverage sweep","test_paths":["test/unit/showdown.events.js"]}
+{"sha":"788e329d6eda35d626da5872b9c516c3f0835252","subject":"test: fix cli test to work with named versions","test_paths":["test/unit/cli.js"]}
+{"sha":"1a764b0280ff0968b0274a0f15d1403a62bf0019","subject":"test(cli): fix tests for running in .travis","test_paths":["test/node/cli.js"]}
+{"sha":"307d135e0a70d57faf85ded896910e249bd2759a","subject":"tests(images): fix standard testsuite images test","test_paths":["test/cases/images.html"]}
+{"sha":"2a4a2bdf21cb8666ccb249578a84263cb7aa5ffa","subject":"test(option.prefixHeaderId): add tests for prefixHeaderId option","test_paths":["test/node/Container/testMakeHtml.js"]}
+{"sha":"d4f619c66629b81a651d13c1a547a5a9e826d638","subject":"Test(emphasis): prove that emphasis mechanism is working correctly","test_paths":["test/issues/#107.inner_underscore_parse_to_block.html","test/issues/#107.inner_underscore_parse_to_block.md","test/node/Container/testMakeHtml.js"]}

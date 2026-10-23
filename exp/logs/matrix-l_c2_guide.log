@@ -1,0 +1,22 @@
+[32m20:32:11 (4039065) INFO ProjectReader[39m Found 8 of 534 file(s) to be mutated.
+[32m20:32:13 (4039065) INFO Instrumenter[39m Instrumented 8 source file(s) with 3686 mutant(s)
+[32m20:32:13 (4039065) INFO ConcurrencyTokenProvider[39m Creating 2 test runner process(es).
+[32m20:32:16 (4039065) INFO DryRunExecutor[39m Starting initial test run (vitest test runner with "perTest" coverage analysis). This may take a while.
+[91m20:32:38 (4039065) ERROR DryRunExecutor[39m One or more tests failed in the initial test run:
+	ReDoS resistance should not blow up on: strikethrough: immediate pairs ~~a~~
+		expected 7299 to be less than 4000
+[91m20:32:38 (4039065) ERROR Stryker[39m There were failed tests in the initial test run.
+file:///home/yanchengyu/expr/stryker-mutator/exp/repos/showdown/node_modules/@stryker-mutator/core/dist/src/process/3-dry-run-executor.js:65
+                    throw new ConfigError('There were failed tests in the initial test run.');
+                          ^
+
+ConfigError: There were failed tests in the initial test run.
+    at DryRunExecutor.validateResultCompleted (file:///home/yanchengyu/expr/stryker-mutator/exp/repos/showdown/node_modules/@stryker-mutator/core/dist/src/process/3-dry-run-executor.js:65:27)
+    at DryRunExecutor.executeDryRun (file:///home/yanchengyu/expr/stryker-mutator/exp/repos/showdown/node_modules/@stryker-mutator/core/dist/src/process/3-dry-run-executor.js:100:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkItem.execute (file:///home/yanchengyu/expr/stryker-mutator/exp/repos/showdown/node_modules/@stryker-mutator/core/dist/src/concurrent/pool.js:32:28)
+    at async file:///home/yanchengyu/expr/stryker-mutator/exp/repos/showdown/node_modules/@stryker-mutator/core/dist/src/concurrent/pool.js:69:13 {
+  innerError: undefined
+}
+
+Node.js v24.19.0

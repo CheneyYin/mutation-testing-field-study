@@ -1,0 +1,57 @@
+=== showdown / suite base
+detected b5d4799cd6bd0eb09f8d941126984986d13f5239 (base)
+detected b13d7b2212d12ef94d0bc054ab30d7e8d64c95cf (base)
+=== showdown / suite a1
+detected b5d4799cd6bd0eb09f8d941126984986d13f5239 (a1)
+detected b13d7b2212d12ef94d0bc054ab30d7e8d64c95cf (a1)
+=== showdown / suite a2
+detected b5d4799cd6bd0eb09f8d941126984986d13f5239 (a2)
+detected b13d7b2212d12ef94d0bc054ab30d7e8d64c95cf (a2)
+=== showdown / suite a3
+detected b5d4799cd6bd0eb09f8d941126984986d13f5239 (a3)
+detected b13d7b2212d12ef94d0bc054ab30d7e8d64c95cf (a3)
+=== showdown / suite b1
+detected b5d4799cd6bd0eb09f8d941126984986d13f5239 (b1)
+detected b13d7b2212d12ef94d0bc054ab30d7e8d64c95cf (b1)
+=== showdown / suite b2
+detected b5d4799cd6bd0eb09f8d941126984986d13f5239 (b2)
+detected b13d7b2212d12ef94d0bc054ab30d7e8d64c95cf (b2)
+=== showdown / suite b3
+detected b5d4799cd6bd0eb09f8d941126984986d13f5239 (b3)
+detected b13d7b2212d12ef94d0bc054ab30d7e8d64c95cf (b3)
+=== sql-formatter / suite base
+detected 2f9476e12222b2cfcff46f6e9debb8b53dc854fa (base)
+detected 756d4b75ff934f4a2895d16ddfe1073fab3c3226 (base)
+detected 79a8b23b16b35135931fa71b744ebd3ccdb6d37c (base)
+detected 34baa645fc9ac4b3b5d45cc6f744bf623baf2bf8 (base)
+=== sql-formatter / suite a1
+detected 2f9476e12222b2cfcff46f6e9debb8b53dc854fa (a1)
+detected 756d4b75ff934f4a2895d16ddfe1073fab3c3226 (a1)
+detected 79a8b23b16b35135931fa71b744ebd3ccdb6d37c (a1)
+detected 34baa645fc9ac4b3b5d45cc6f744bf623baf2bf8 (a1)
+=== sql-formatter / suite a2
+detected 2f9476e12222b2cfcff46f6e9debb8b53dc854fa (a2)
+detected 756d4b75ff934f4a2895d16ddfe1073fab3c3226 (a2)
+detected 79a8b23b16b35135931fa71b744ebd3ccdb6d37c (a2)
+detected 34baa645fc9ac4b3b5d45cc6f744bf623baf2bf8 (a2)
+=== sql-formatter / suite a3
+detected 2f9476e12222b2cfcff46f6e9debb8b53dc854fa (a3)
+detected 756d4b75ff934f4a2895d16ddfe1073fab3c3226 (a3)
+detected 79a8b23b16b35135931fa71b744ebd3ccdb6d37c (a3)
+detected 34baa645fc9ac4b3b5d45cc6f744bf623baf2bf8 (a3)
+=== sql-formatter / suite b1
+detected 2f9476e12222b2cfcff46f6e9debb8b53dc854fa (b1)
+detected 756d4b75ff934f4a2895d16ddfe1073fab3c3226 (b1)
+detected 79a8b23b16b35135931fa71b744ebd3ccdb6d37c (b1)
+detected 34baa645fc9ac4b3b5d45cc6f744bf623baf2bf8 (b1)
+=== sql-formatter / suite b2
+detected 2f9476e12222b2cfcff46f6e9debb8b53dc854fa (b2)
+detected 756d4b75ff934f4a2895d16ddfe1073fab3c3226 (b2)
+detected 79a8b23b16b35135931fa71b744ebd3ccdb6d37c (b2)
+detected 34baa645fc9ac4b3b5d45cc6f744bf623baf2bf8 (b2)
+=== sql-formatter / suite b3
+detected 2f9476e12222b2cfcff46f6e9debb8b53dc854fa (b3)
+detected 756d4b75ff934f4a2895d16ddfe1073fab3c3226 (b3)
+detected 79a8b23b16b35135931fa71b744ebd3ccdb6d37c (b3)
+detected 34baa645fc9ac4b3b5d45cc6f744bf623baf2bf8 (b3)
+P4 DETECTIONS: 84 rows

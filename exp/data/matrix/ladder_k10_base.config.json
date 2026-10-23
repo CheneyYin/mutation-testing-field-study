@@ -1,0 +1,13 @@
+{
+  "testRunner": "vitest",
+  "reporters": ["clear-text", "json"],
+  "jsonReporter": { "fileName": "/home/yanchengyu/expr/stryker-mutator/exp/data/matrix/ladder_k10_base.report.json" },
+  "mutate": ["src/subParsers/makehtml/heading.js"],
+  "vitest": { "related": false },
+  "disableTypeChecks": false,
+  "concurrency": 2,
+  "timeoutMS": 5000,
+  "ignoreStatic": true,
+  "incremental": true,
+  "incrementalFile": "/home/yanchengyu/expr/stryker-mutator/exp/data/matrix/incremental-k10.json"
+}

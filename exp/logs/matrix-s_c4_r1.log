@@ -1,0 +1,22 @@
+[32m15:44:30 (3622668) INFO ProjectReader[39m Found 1 of 534 file(s) to be mutated.
+[32m15:44:31 (3622668) INFO Instrumenter[39m Instrumented 1 source file(s) with 401 mutant(s)
+[32m15:44:31 (3622668) INFO ConcurrencyTokenProvider[39m Creating 4 test runner process(es).
+[32m15:44:34 (3622668) INFO DryRunExecutor[39m Starting initial test run (vitest test runner with "perTest" coverage analysis). This may take a while.
+[91m15:45:50 (3622668) ERROR DryRunExecutor[39m One or more tests failed in the initial test run:
+	ReDoS resistance should not blow up on: inline lowercase cdata (not the CDATA production)
+		expected 11158 to be less than 4000
+[91m15:45:50 (3622668) ERROR Stryker[39m There were failed tests in the initial test run.
+file:///home/yanchengyu/expr/stryker-mutator/exp/repos/showdown/node_modules/@stryker-mutator/core/dist/src/process/3-dry-run-executor.js:65
+                    throw new ConfigError('There were failed tests in the initial test run.');
+                          ^
+
+ConfigError: There were failed tests in the initial test run.
+    at DryRunExecutor.validateResultCompleted (file:///home/yanchengyu/expr/stryker-mutator/exp/repos/showdown/node_modules/@stryker-mutator/core/dist/src/process/3-dry-run-executor.js:65:27)
+    at DryRunExecutor.executeDryRun (file:///home/yanchengyu/expr/stryker-mutator/exp/repos/showdown/node_modules/@stryker-mutator/core/dist/src/process/3-dry-run-executor.js:100:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkItem.execute (file:///home/yanchengyu/expr/stryker-mutator/exp/repos/showdown/node_modules/@stryker-mutator/core/dist/src/concurrent/pool.js:32:28)
+    at async file:///home/yanchengyu/expr/stryker-mutator/exp/repos/showdown/node_modules/@stryker-mutator/core/dist/src/concurrent/pool.js:69:13 {
+  innerError: undefined
+}
+
+Node.js v24.19.0

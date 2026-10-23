@@ -1,0 +1,7 @@
+[32m11:55:59 (505594) INFO ProjectReader[39m Found 4 of 535 file(s) to be mutated.
+[32m11:56:00 (505594) INFO Instrumenter[39m Instrumented 4 source file(s) with 810 mutant(s)
+[32m11:56:00 (505594) INFO ConcurrencyTokenProvider[39m Creating 2 test runner process(es).
+[32m11:56:02 (505594) INFO DryRunExecutor[39m Starting initial test run (vitest test runner with "perTest" coverage analysis). This may take a while.
+[32m11:56:58 (505594) INFO DryRunExecutor[39m Initial test run succeeded. Ran 3180 tests in 55 seconds (net 24538.268927999965 ms, overhead 30999.731072000035 ms).
+[32m12:33:26 (505594) INFO JsonReporter[39m Your report can be found at: file:///home/yanchengyu/expr/stryker-mutator/exp/data/score-a3.report.json
+[32m12:33:26 (505594) INFO MutationTestExecutor[39m Done in 37 minutes and 28 seconds.

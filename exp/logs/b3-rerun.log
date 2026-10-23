@@ -1,0 +1,50 @@
+fatal: cannot change to '/tmp/repos/showdown': No such file or directory
+node:fs:2483
+    return binding.writeFileUtf8(
+                   ^
+
+Error: ENOENT: no such file or directory, open '/tmp/data/score-b3.config.json'
+    at Object.writeFileSync (node:fs:2483:20)
+    at [eval]:4:8
+    at runScriptInThisContext (node:internal/vm:219:10)
+    at node:internal/process/execution:451:12
+    at [eval]-wrapper:6:24
+    at runScriptInContext (node:internal/process/execution:449:60)
+    at evalFunction (node:internal/process/execution:283:30)
+    at evalTypeScript (node:internal/process/execution:295:3)
+    at node:internal/main/eval_string:71:3 {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/tmp/data/score-b3.config.json'
+}
+
+Node.js v24.19.0
+/tmp/opencode/score-b3-only.sh: line 43: cd: /tmp/repos/showdown: No such file or directory
+fatal: not a git repository (or any of the parent directories): .git
+/tmp/opencode/score-b3-only.sh: line 47: /tmp/logs/score-b3.log: No such file or directory
+score b3 try 1 failed
+fatal: not a git repository (or any of the parent directories): .git
+fatal: not a git repository (or any of the parent directories): .git
+/tmp/opencode/score-b3-only.sh: line 47: /tmp/logs/score-b3.log: No such file or directory
+score b3 try 2 failed
+fatal: not a git repository (or any of the parent directories): .git
+fatal: not a git repository (or any of the parent directories): .git
+/tmp/opencode/score-b3-only.sh: line 47: /tmp/logs/score-b3.log: No such file or directory
+score b3 try 3 failed
+fatal: not a git repository (or any of the parent directories): .git
+fatal: not a git repository (or any of the parent directories): .git
+/tmp/opencode/score-b3-only.sh: line 47: /tmp/logs/score-b3.log: No such file or directory
+score b3 try 4 failed
+fatal: not a git repository (or any of the parent directories): .git
+fatal: not a git repository (or any of the parent directories): .git
+/tmp/opencode/score-b3-only.sh: line 47: /tmp/logs/score-b3.log: No such file or directory
+score b3 try 5 failed
+fatal: not a git repository (or any of the parent directories): .git
+fatal: not a git repository (or any of the parent directories): .git
+/tmp/opencode/score-b3-only.sh: line 47: /tmp/logs/score-b3.log: No such file or directory
+score b3 try 6 failed
+fatal: not a git repository (or any of the parent directories): .git
+fatal: not a git repository (or any of the parent directories): .git
+score b3: ALL TRIES FAILED (no row; resumable)
+SCORING COMPLETE

@@ -1,0 +1,10 @@
+
+ RUN  v4.1.11 /home/yanchengyu/expr/stryker-mutator/exp/repos/showdown
+      Coverage enabled with v8
+
+
+ Test Files  25 passed (25)
+      Tests  3174 passed (3174)
+   Start at  19:39:10
+   Duration  21.34s (transform 2.96s, setup 7.06s, import 1.87s, tests 43.05s, environment 29.27s)
+

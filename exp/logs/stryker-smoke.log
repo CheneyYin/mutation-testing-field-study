@@ -1,0 +1,9 @@
+[32m12:35:44 (3397457) INFO ProjectReader[39m Found 1 of 534 file(s) to be mutated.
+[32m12:35:44 (3397457) INFO Instrumenter[39m Instrumented 1 source file(s) with 401 mutant(s)
+[32m12:35:44 (3397457) INFO ConcurrencyTokenProvider[39m Creating 2 test runner process(es).
+[32m12:35:46 (3397457) INFO DryRunExecutor[39m Starting initial test run (vitest test runner with "perTest" coverage analysis). This may take a while.
+[32m12:36:36 (3397457) INFO DryRunExecutor[39m Initial test run succeeded. Ran 3174 tests in 50 seconds (net 22633.762089999986 ms, overhead 27425.237910000014 ms).
+[33m12:36:36 (3397457) WARN MutantTestPlanner[39m Detected 48 static mutants (12% of total) that are estimated to take 91% of the time running the tests!
+  You might want to enable "ignoreStatic" to ignore these static mutants for your next run. 
+  For more information about static mutants visit: https://stryker-mutator.io/docs/mutation-testing-elements/static-mutants
+  (disable "warnings.slow" to ignore this warning)

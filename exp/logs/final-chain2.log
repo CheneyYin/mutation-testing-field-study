@@ -1,0 +1,8 @@
+score base try 1 failed
+score base try 2 failed
+score base try 3 failed
+score base: ALL TRIES FAILED
+base: rc=0 mutants=0 killed=0 survived=0
+score a1 try 1 failed
+score a1 try 2 failed
+score a1 try 3 failed

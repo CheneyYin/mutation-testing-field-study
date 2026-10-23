@@ -1,0 +1,7 @@
+{"suite":"base","exit_code":0,"total_mutants":810,"counts_by_state":{"NoCoverage":47,"Ignored":35,"Killed":455,"Survived":245,"Timeout":28},"score_pct_covered":"66.3","ts":"2026-10-23T01:48:36.666Z"}
+{"suite":"a1","exit_code":0,"total_mutants":810,"counts_by_state":{"NoCoverage":42,"Ignored":35,"Killed":479,"Survived":227,"Timeout":27},"score_pct_covered":"69.0","ts":"2026-10-23T02:23:41.787Z"}
+{"suite":"a2","exit_code":0,"total_mutants":810,"counts_by_state":{"NoCoverage":36,"Ignored":35,"Killed":484,"Survived":228,"Timeout":27},"score_pct_covered":"69.1","ts":"2026-10-23T03:00:43.441Z"}
+{"suite":"a3","exit_code":0,"total_mutants":810,"counts_by_state":{"NoCoverage":39,"Ignored":35,"Killed":481,"Survived":228,"Timeout":27},"score_pct_covered":"69.0","ts":"2026-10-23T04:33:27.197Z"}
+{"suite":"b1","exit_code":0,"total_mutants":810,"counts_by_state":{"NoCoverage":47,"Ignored":35,"Killed":455,"Survived":245,"Timeout":28},"score_pct_covered":"66.3","ts":"2026-10-23T05:08:31.186Z"}
+{"suite":"b2","exit_code":0,"total_mutants":810,"counts_by_state":{"NoCoverage":47,"Ignored":35,"Killed":456,"Survived":245,"Timeout":27},"score_pct_covered":"66.3","ts":"2026-10-23T05:44:08.455Z"}
+{"suite":"b3","exit_code":0,"total_mutants":810,"counts_by_state":{"NoCoverage":40,"Killed":471,"Survived":271,"Timeout":28},"score_pct_covered":"64.8","ts":"2026-10-23T10:49:32.450Z"}

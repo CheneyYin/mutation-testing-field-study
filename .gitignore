@@ -1,0 +1,7 @@
+# 第三方仓完整克隆（bootstrap-fresh.sh 可复原，冻结 SHA 见 README）
+exp/repos/
+# 写手沙箱（新增测试已导出到 data/suites/，原始树可由 verify-writer.sh 重建）
+exp/sandbox/
+# 上游仓参考导出（纯第三方副本，58M，verify-writer.sh 每次运行自动重建）
+exp/data/writer-refs/
+.DS_Store

@@ -1,0 +1,5 @@
+[32m16:07:50 (3657833) INFO ProjectReader[39m Found 1 of 534 file(s) to be mutated.
+[32m16:07:50 (3657833) INFO Instrumenter[39m Instrumented 1 source file(s) with 401 mutant(s)
+[32m16:07:50 (3657833) INFO ConcurrencyTokenProvider[39m Creating 1 test runner process(es).
+[32m16:07:53 (3657833) INFO DryRunExecutor[39m Starting initial test run (vitest test runner with "perTest" coverage analysis). This may take a while.
+[32m16:08:51 (3657833) INFO DryRunExecutor[39m Initial test run succeeded. Ran 3174 tests in 57 seconds (net 26448.093064999983 ms, overhead 31393.906935000017 ms).

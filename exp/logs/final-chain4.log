@@ -1,0 +1,23 @@
+base: mutants=810 killed=483 survived=245
+a1: mutants=810 killed=506 survived=227
+a2: mutants=810 killed=511 survived=228
+score a3 try 1 failed
+a3: mutants=810 killed=508 survived=228
+b1: mutants=810 killed=483 survived=245
+b2: mutants=810 killed=483 survived=245
+b3: mutants=810 killed=499 survived=271
+SCORING COMPLETE
+ladder_k1_base: rc=0 mutants=401 reused=null/null dry=56s
+applied 1 comment-line modifications (k=1)
+ladder_k1_rerun: rc=0 mutants=401 reused=395/401 dry=59s
+k=1 ladder complete (patch verified, reverted, hash-identical)
+ladder_k10_base: rc=0 mutants=401 reused=null/null dry=nulls
+applied 10 comment-line modifications (k=10)
+ladder_k10_rerun: rc=0 mutants=401 reused=383/401 dry=90s
+k=10 ladder complete (patch verified, reverted, hash-identical)
+ladder_k100_base: rc=0 mutants=401 reused=null/null dry=58s
+applied 100 comment-line modifications (k=100)
+ladder_k100_rerun: rc=0 mutants=401 reused=353/401 dry=119s
+k=100 ladder complete (patch verified, reverted, hash-identical)
+LADDER COMPLETE (failed ks are resumable)
+FINAL CHAIN COMPLETE

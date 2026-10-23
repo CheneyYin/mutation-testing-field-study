@@ -1,0 +1,23 @@
+
+> showdown@3.0.0-rc2 test
+> npm run lint && vitest run
+
+
+> showdown@3.0.0-rc2 lint
+> eslint .
+
+
+/home/yanchengyu/expr/stryker-mutator/exp/repos/scratch/src/subParsers/makehtml/decodeEntities.js
+  18:72  warning  'globals' is defined but never used  no-unused-vars
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+ RUN  v4.1.11 /home/yanchengyu/expr/stryker-mutator/exp/repos/scratch
+
+
+ Test Files  25 passed (25)
+      Tests  3174 passed (3174)
+   Start at  11:52:41
+   Duration  13.13s (transform 3.01s, setup 5.66s, import 1.58s, tests 32.31s, environment 26.40s)
+

@@ -1,0 +1,18 @@
+{
+ "showdown": [
+  "src/helpers/misc.js",
+  "src/helpers/url.js",
+  "src/helpers/regexes.js",
+  "src/subParsers/makehtml/htmlBlock.js"
+ ],
+ "sql-formatter": [
+  "src/languages/transactsql/transactsql.formatter.ts",
+  "src/languages/postgresql/postgresql.formatter.ts",
+  "src/languages/sqlite/sqlite.keywords.ts",
+  "src/validateConfig.ts",
+  "src/FormatOptions.ts",
+  "src/allDialects.ts",
+  "src/dialect.ts",
+  "src/expandPhrases.ts"
+ ]
+}

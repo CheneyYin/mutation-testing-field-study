@@ -1,0 +1,6 @@
+done s_c2_r1: rc=0 wall=1183s mutants=401 killed=253 survived=112 static=48
+done s_c1_r1: rc=0 wall=1796s mutants=401 killed=251 survived=113 static=48
+done s_c4_r1: rc=1 wall=85s mutants=0 killed=0 survived=0 static=0
+done s_c2_r2: rc=0 wall=1315s mutants=401 killed=252 survived=112 static=48
+done s_c1_r2: rc=124 wall=3526s mutants=0 killed=0 survived=0 static=0 TRUNCATED
+done s_c4_r2: rc=0 wall=767s mutants=401 killed=252 survived=113 static=48

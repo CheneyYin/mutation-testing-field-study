@@ -1,0 +1,23 @@
+{
+  "testRunner": "jest",
+  "reporters": [
+    "clear-text",
+    "json"
+  ],
+  "jsonReporter": {
+    "fileName": "/home/yanchengyu/expr/stryker-mutator/exp/data/sqf-full.report.json"
+  },
+  "mutate": [
+    "src/languages/transactsql/transactsql.formatter.ts",
+    "src/languages/postgresql/postgresql.formatter.ts",
+    "src/languages/sqlite/sqlite.keywords.ts",
+    "src/validateConfig.ts",
+    "src/FormatOptions.ts",
+    "src/allDialects.ts",
+    "src/dialect.ts",
+    "src/expandPhrases.ts"
+  ],
+  "concurrency": 4,
+  "timeoutMS": 5000,
+  "ignoreStatic": true
+}

@@ -1,0 +1,14 @@
+npm warn Unknown project config "shamefully-hoist". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+
+> @rc-component/table@1.12.0 test
+> vitest run
+
+
+ RUN  v4.1.12 /home/yanchengyu/expr/stryker-mutator/exp/repos/scratch
+
+
+ Test Files  21 passed (21)
+      Tests  236 passed (236)
+   Start at  12:00:30
+   Duration  15.70s (transform 5.52s, setup 4.27s, import 14.98s, tests 28.84s, environment 43.26s)
+

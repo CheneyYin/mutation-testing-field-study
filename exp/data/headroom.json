@@ -1,0 +1,43 @@
+[
+ {
+  "fix_sha": "b13d7b2212d12ef94d0bc054ab30d7e8d64c95cf",
+  "repo": "showdown",
+  "src_paths": [
+   "src/helpers/regexes.js",
+   "src/subParsers/makehtml/htmlBlock.js"
+  ],
+  "msg": "fix(security): terminate HTML comments at --!> under commonmark and gfm"
+ },
+ {
+  "fix_sha": "2f9476e12222b2cfcff46f6e9debb8b53dc854fa",
+  "repo": "sql-formatter",
+  "src_paths": [
+   "src/languages/transactsql/transactsql.formatter.ts"
+  ],
+  "msg": "Don't format COLLATE as statement in Transact-SQL"
+ },
+ {
+  "fix_sha": "756d4b75ff934f4a2895d16ddfe1073fab3c3226",
+  "repo": "sql-formatter",
+  "src_paths": [
+   "src/languages/postgresql/postgresql.formatter.ts"
+  ],
+  "msg": "Fix CREATE SEQUENCE syntax rule"
+ },
+ {
+  "fix_sha": "79a8b23b16b35135931fa71b744ebd3ccdb6d37c",
+  "repo": "sql-formatter",
+  "src_paths": [
+   "src/languages/sqlite/sqlite.keywords.ts"
+  ],
+  "msg": "Remove GROUPS from SQLite keywords list"
+ },
+ {
+  "fix_sha": "34baa645fc9ac4b3b5d45cc6f744bf623baf2bf8",
+  "repo": "sql-formatter",
+  "src_paths": [
+   "src/validateConfig.ts"
+  ],
+  "msg": "Throw error when empty regex in custom param types"
+ }
+]

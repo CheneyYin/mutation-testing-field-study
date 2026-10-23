@@ -1,0 +1,9 @@
+done s_c4_r1b: rc=0 wall=499s mutants=401 killed=253 survived=113 static=48
+done m_c2_r1: rc=0 wall=1549s mutants=256 killed=144 survived=74 static=181
+done m_c4_r1: rc=0 wall=934s mutants=256 killed=143 survived=72 static=181
+done m_c2_r2: rc=0 wall=1592s mutants=256 killed=144 survived=74 static=181
+done m_c4_r2: rc=0 wall=869s mutants=256 killed=143 survived=74 static=181
+done l_c4_r1: rc=1 wall=26s mutants=0 killed=0 survived=0 static=0
+done h3_false: rc=0 wall=1001s mutants=401 killed=254 survived=116 static=48
+done hl_high: rc=0 wall=897s mutants=401 killed=252 survived=113 static=48
+MATRIX DRIVER COMPLETE

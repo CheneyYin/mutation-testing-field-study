@@ -1,0 +1,30 @@
+{"arm":"A","repo":"showdown","file":"src/helpers/misc.js","line":41,"kind":"survived-mutant","mutator":"StringLiteral","original":null,"replacement":"\"Stryker was here!\""}
+{"arm":"A","repo":"showdown","file":"src/helpers/url.js","line":44,"kind":"survived-mutant","mutator":"ConditionalExpression","original":null,"replacement":"true"}
+{"arm":"A","repo":"showdown","file":"src/subParsers/makehtml/htmlBlock.js","line":44,"kind":"survived-mutant","mutator":"BlockStatement","original":null,"replacement":"{}"}
+{"arm":"A","repo":"sql-formatter","file":"src/dialect.ts","line":28,"kind":"survived-mutant","mutator":"ConditionalExpression","original":null,"replacement":"true"}
+{"arm":"A","repo":"sql-formatter","file":"src/expandPhrases.ts","line":57,"kind":"survived-mutant","mutator":"ConditionalExpression","original":null,"replacement":"true"}
+{"arm":"A","repo":"sql-formatter","file":"src/validateConfig.ts","line":28,"kind":"survived-mutant","mutator":"BooleanLiteral","original":null,"replacement":"validateParams(cfg.params)"}
+{"arm":"A","repo":"showdown","file":"src/helpers/misc.js","line":41,"kind":"survived-mutant","mutator":"StringLiteral","original":null,"replacement":"\"Stryker was here!\""}
+{"arm":"A","repo":"showdown","file":"src/helpers/url.js","line":44,"kind":"survived-mutant","mutator":"StringLiteral","original":null,"replacement":"\"Stryker was here!\""}
+{"arm":"A","repo":"showdown","file":"src/subParsers/makehtml/htmlBlock.js","line":44,"kind":"survived-mutant","mutator":"ConditionalExpression","original":null,"replacement":"false"}
+{"arm":"A","repo":"sql-formatter","file":"src/dialect.ts","line":30,"kind":"survived-mutant","mutator":"CallExpression","original":null,"replacement":";"}
+{"arm":"A","repo":"sql-formatter","file":"src/expandPhrases.ts","line":63,"kind":"survived-mutant","mutator":"ConditionalExpression","original":null,"replacement":"true"}
+{"arm":"A","repo":"sql-formatter","file":"src/validateConfig.ts","line":28,"kind":"survived-mutant","mutator":"ConditionalExpression","original":null,"replacement":"true"}
+{"arm":"A","repo":"showdown","file":"src/helpers/misc.js","line":64,"kind":"survived-mutant","mutator":"ConditionalExpression","original":null,"replacement":"true"}
+{"arm":"A","repo":"showdown","file":"src/helpers/url.js","line":44,"kind":"survived-mutant","mutator":"LogicalOperator","original":null,"replacement":"baseUrl || baseUrl !== ''"}
+{"arm":"A","repo":"showdown","file":"src/subParsers/makehtml/htmlBlock.js","line":46,"kind":"survived-mutant","mutator":"Regex","original":null,"replacement":"/\\\\<(\\/[^>]+?)>/g"}
+{"arm":"A","repo":"sql-formatter","file":"src/dialect.ts","line":44,"kind":"survived-mutant","mutator":"ArrayDeclaration","original":null,"replacement":"[\"Stryker was here\"]"}
+{"arm":"A","repo":"sql-formatter","file":"src/expandPhrases.ts","line":86,"kind":"survived-mutant","mutator":"ConditionalExpression","original":null,"replacement":"false"}
+{"arm":"A","repo":"sql-formatter","file":"src/validateConfig.ts","line":28,"kind":"survived-mutant","mutator":"ConditionalExpression","original":null,"replacement":"false"}
+{"arm":"A","repo":"showdown","file":"src/helpers/misc.js","line":71,"kind":"survived-mutant","mutator":"ConditionalExpression","original":null,"replacement":"true"}
+{"arm":"A","repo":"showdown","file":"src/helpers/url.js","line":60,"kind":"survived-mutant","mutator":"Regex","original":null,"replacement":"/(([a-z]+:)?\\/\\/)|(^#)/i"}
+{"arm":"A","repo":"showdown","file":"src/subParsers/makehtml/htmlBlock.js","line":46,"kind":"survived-mutant","mutator":"Regex","original":null,"replacement":"/\\\\<(\\/?[^>])>/g"}
+{"arm":"A","repo":"sql-formatter","file":"src/dialect.ts","line":47,"kind":"survived-mutant","mutator":"ArrayDeclaration","original":null,"replacement":"[]"}
+{"arm":"A","repo":"sql-formatter","file":"src/expandPhrases.ts","line":121,"kind":"survived-mutant","mutator":"ConditionalExpression","original":null,"replacement":"true"}
+{"arm":"A","repo":"sql-formatter","file":"src/validateConfig.ts","line":42,"kind":"survived-mutant","mutator":"BlockStatement","original":null,"replacement":"{}"}
+{"arm":"A","repo":"showdown","file":"src/helpers/misc.js","line":71,"kind":"survived-mutant","mutator":"ConditionalExpression","original":null,"replacement":"false"}
+{"arm":"A","repo":"showdown","file":"src/helpers/url.js","line":60,"kind":"survived-mutant","mutator":"Regex","original":null,"replacement":"/(^([a-z]+:)\\/\\/)|(^#)/i"}
+{"arm":"A","repo":"showdown","file":"src/subParsers/makehtml/htmlBlock.js","line":46,"kind":"survived-mutant","mutator":"Regex","original":null,"replacement":"/\\\\<(\\/?[>]+?)>/g"}
+{"arm":"A","repo":"sql-formatter","file":"src/dialect.ts","line":47,"kind":"survived-mutant","mutator":"BooleanLiteral","original":null,"replacement":"false"}
+{"arm":"A","repo":"sql-formatter","file":"src/validateConfig.ts","line":44,"kind":"survived-mutant","mutator":"MethodExpression","original":null,"replacement":"paramValues.some(p => typeof p === 'string')"}
+{"arm":"A","repo":"showdown","file":"src/helpers/misc.js","line":71,"kind":"survived-mutant","mutator":"StringLiteral","original":null,"replacement":"\"\""}

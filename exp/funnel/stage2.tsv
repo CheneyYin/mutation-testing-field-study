@@ -1,0 +1,14 @@
+repo	runner	src_loc	src_dir	fix_total	fix_730d	gate
+yargs/yargs	mocha	6369	lib	531	23	FAIL
+streamich/memfs	jest	0	none	560	229	FAIL
+sql-formatter-org/sql-formatter	jest	21836	src	403	74	PASS
+react-component/picker	?	13240	src	300	44	FAIL
+react-component/cascader	?	2225	src	133	19	FAIL
+react-component/select	?	4602	src	441	60	FAIL
+react-component/table	vitest	5623	src	443	63	PASS
+showdownjs/showdown	vitest	16144	src	447	122	PASS
+kpdecker/jsdiff	mocha	3802	src	222	40	FAIL
+i18next/i18next	vitest	3240	src	560	106	FAIL
+eemeli/yaml	vitest	10999	src	387	42	PASS
+nodeca/js-yaml	?	6635	src	366	69	FAIL
+ajv-validator/ajv	mocha	9968	lib	509	6	FAIL

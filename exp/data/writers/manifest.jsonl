@@ -1,0 +1,6 @@
+{"writer":"a1","arm":"A","prompt":"a1.prompt.md","prompt_sha256":"d290feac98aca65ddcbd07d764a1d69fba1f4b6c4ed7ed759088e37aa4237883","model":"subagent-default","ts":"2026-10-22T10:10:47.606Z"}
+{"writer":"a2","arm":"A","prompt":"a2.prompt.md","prompt_sha256":"4f5de848cae04a4caac3a9df6f9e2f9f85cd0a8a62ed5feeaa99be693d66426e","model":"subagent-default","ts":"2026-10-22T10:10:47.608Z"}
+{"writer":"a3","arm":"A","prompt":"a3.prompt.md","prompt_sha256":"797c73187745585289cf5a80a29233e7f0dcc795ab7dbb276387e2243e93faae","model":"subagent-default","ts":"2026-10-22T10:10:47.608Z"}
+{"writer":"b1","arm":"B","prompt":"b1.prompt.md","prompt_sha256":"d36a1bd652ae8ae5c16270cf9798ecb11780936305c2bf4dac68527cf5fe5a4d","model":"subagent-default","ts":"2026-10-22T10:10:47.609Z"}
+{"writer":"b2","arm":"B","prompt":"b2.prompt.md","prompt_sha256":"b8a451fe4908660f3e0534dc1a4128cdd31bee6c198d000c03716f122ca65128","model":"subagent-default","ts":"2026-10-22T10:10:47.610Z"}
+{"writer":"b3","arm":"B","prompt":"b3.prompt.md","prompt_sha256":"238a5f3a652d8f65c2dfacfde000e53259516e825e59cc03b3c903fff8e01376","model":"subagent-default","ts":"2026-10-22T10:10:47.611Z"}

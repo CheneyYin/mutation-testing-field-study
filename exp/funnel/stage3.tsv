@@ -1,0 +1,5 @@
+repo	run1_s	exit1	run2_s	exit2	gate
+showdownjs/showdown	17.6	0	18.0	0	PASS
+eemeli/yaml	4.8	0	4.5	0	PASS
+react-component/table	16.9	0	16.6	0	PASS
+sql-formatter-org/sql-formatter	?	?	?	?	FAIL_CLONE

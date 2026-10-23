@@ -1,0 +1,15 @@
+error: RPC failed; curl 28 Failed to connect to github.com port 443 after 134412 ms: Couldn't connect to server
+fatal: expected 'packfile'
+fatal: unable to access 'https://github.com/nodeca/js-yaml/': Failed to connect to github.com port 443 after 135149 ms: Couldn't connect to server
+error: RPC failed; curl 28 Failed to connect to github.com port 443 after 136286 ms: Couldn't connect to server
+fatal: expected 'packfile'
+warning: Clone succeeded, but checkout failed.
+You can inspect what was checked out with 'git status'
+and retry with 'git restore --source=HEAD :/'
+
+error: RPC failed; curl 28 Failed to connect to github.com port 443 after 134332 ms: Couldn't connect to server
+fatal: expected flush after ref listing
+attempt 1 failed for eemeli/yaml
+error: RPC failed; curl 28 Failed to connect to github.com port 443 after 133261 ms: Couldn't connect to server
+fatal: expected flush after ref listing
+attempt 2 failed for eemeli/yaml

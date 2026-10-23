@@ -1,0 +1,23 @@
+	Command being timed: "timeout 2700 npx stryker run /home/yanchengyu/expr/stryker-mutator/exp/data/matrix/ladder_k10_base.config.json"
+	User time (seconds): 1795.27
+	System time (seconds): 125.67
+	Percent of CPU this job got: 165%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 19:20.63
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 811820
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 1
+	Minor (reclaiming a frame) page faults: 11345766
+	Voluntary context switches: 1030247
+	Involuntary context switches: 1501860
+	Swaps: 0
+	File system inputs: 8
+	File system outputs: 32024
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

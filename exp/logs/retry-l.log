@@ -1,0 +1,6 @@
+attempt l_c4_r1 (conc4): rc=1
+conc4 try 1 failed (ReDoS flake?)
+attempt l_c4_r1 (conc4): rc=1
+conc4 try 2 failed (ReDoS flake?)
+attempt l_c2_fallback (conc2): rc=1
+L RETRY FAILED at both concurrencies
