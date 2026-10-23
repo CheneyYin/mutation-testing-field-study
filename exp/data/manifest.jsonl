@@ -104,3 +104,5 @@
 {"phase":"session7-public","artifact":"levers/bootstrap-fresh.sh","sha256":"a1b190f3fce74fe469febf7d7bedd3e96969d5b4701d8dc5dc3bc4e1257c279f","lines":70,"schema_ver":"2","ts":"2026-10-23T11:59:37.405Z"}
 {"phase":"session7-public","artifact":"data/status.md","sha256":"97feca1c6ec01eb34a96a535571b638ae18ec2337f881e900b676e0864c0623e","lines":72,"schema_ver":"2","ts":"2026-10-23T11:59:37.459Z"}
 {"phase":"session7-report-html","artifact":"report/mutation-testing-report.html","sha256":"340a3ba2a6f84187b0f54f0d5dec2d756660f2f8d62a2cda87a6b6c01a4c4c56","lines":215,"schema_ver":"2","ts":"2026-10-23T12:02:02.631Z"}
+{"phase":"session7-layout","artifact":"report/mutation-testing-report.html","sha256":"f8a2cca3a3a8fcd857abea898fb7006c549d9707dbb3a46ffb44fc4b3435cbb0","lines":268,"schema_ver":"2","ts":"2026-10-23T12:08:40.311Z"}
+{"phase":"session7-layout","artifact":"report/build-report.js","sha256":"8f89d68380585e31dba94076ab76ead09ba73ae9f1cd790126e297a95525cb91","lines":391,"schema_ver":"2","ts":"2026-10-23T12:08:40.395Z"}

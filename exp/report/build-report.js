@@ -226,9 +226,17 @@ let body = MD
 // flip chart goes after the 6.x trap table (after 陷阱一 mention in ch1? no—place in ch4 where flips cited)
 body = body.replace("### 4.1 成本矩阵", "### 4.1 成本矩阵\n\n{{CHART:flips}}");
 const htmlBody = md2html(body)
-  .replace("<p>{{CHART:ladder}}</p>", `<div class="chart">${chartLadder()}</div>`)
-  .replace("<p>{{CHART:scores}}</p>", `<div class="chart">${chartScores()}</div>`)
-  .replace("<p>{{CHART:flips}}</p>", `<div class="chart">${chartFlips()}</div>`);
+  .replace("<p>{{CHART:ladder}}</p>", `<div class="chart"><div class="cap">图 1 · 增量模式的 CPU 成本阶梯（改动 1/10/100 行后的重跑对比）<span class="src">源：data/runs.jsonl ladder 行</span></div>${chartLadder()}</div>`)
+  .replace("<p>{{CHART:scores}}</p>", `<div class="chart"><div class="cap">图 2 · 七套件变异分数对比（同 810 变异体、同配置）<span class="src">源：data/scores.jsonl</span></div>${chartScores()}</div>`)
+  .replace("<p>{{CHART:flips}}</p>", `<div class="chart"><div class="cap">图 3 · 杀伤判定的跨并发翻转（conc1 与 conc2 对同一批变异体的判定差异）<span class="src">源：runs.jsonl s_c1_r1 vs s_c2_r1</span></div>${chartFlips()}</div>`)
+  .replace(/<strong>检出<\/strong>/g, '<span class="pill pill-hit">检出</span>')
+  .replace("<th>base</th>", '<th><span class="tag tag-c">C</span>base</th>')
+  .replace("<th>a1</th>", '<th><span class="tag tag-a">A</span>a1</th>')
+  .replace("<th>a2</th>", '<th><span class="tag tag-a">A</span>a2</th>')
+  .replace("<th>a3</th>", '<th><span class="tag tag-a">A</span>a3</th>')
+  .replace("<th>b1</th>", '<th><span class="tag tag-b">B</span>b1</th>')
+  .replace("<th>b2</th>", '<th><span class="tag tag-b">B</span>b2</th>')
+  .replace("<th>b3</th>", '<th><span class="tag tag-b">B</span>b3</th>');
 
 const CSS = `
 :root{--bg:#fafafa;--fg1:#1a1a1a;--fg2:#555;--fg3:#bbb;--card:#fff;--line:#e2e2e2;--cite-e-bg:#e6f4ea;--cite-e-fg:#137333;--cite-d-bg:#e8f0fe;--cite-d-fg:#1a56b0;--cite-i-bg:#fef7e0;--cite-i-fg:#9c6b00;--bar-base:#8a8f98;--bar-good:#2e9e5b;--bar-mid:#c9a13b;--bar-bad:#d64545;--warn:#c77700;--code-bg:#f0f0f0}
@@ -254,7 +262,7 @@ tbody tr:nth-child(even){background:color-mix(in srgb,var(--card) 88%,var(--code
 .chart{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px;margin:18px 0;overflow-x:auto}
 nav.toc{position:sticky;top:0;background:var(--bg);border-bottom:1px solid var(--line);z-index:9;padding:9px 0;font-size:13px}
 nav.toc .in{max-width:980px;margin:0 auto;padding:0 20px;display:flex;flex-wrap:wrap;gap:4px 14px}
-nav.toc a{color:var(--fg2);text-decoration:none;white-space:nowrap}nav.toc a:hover{color:var(--fg1)}
+nav.toc a{color:var(--fg2);text-decoration:none;white-space:nowrap;padding:2px 0;border-bottom:2px solid transparent}nav.toc a:hover{color:var(--fg1)}nav.toc a.on{color:var(--fg1);border-bottom-color:var(--cite-d-fg)}
 hr{border:none;border-top:1px solid var(--line);margin:34px 0}
 strong{font-weight:650}
 h2,h3,h4{scroll-margin-top:60px}
@@ -277,7 +285,22 @@ details.fold .fold-body{padding:2px 16px 12px}
 .takeaway{border-left:4px solid var(--bar-good);background:var(--card);border-radius:0 10px 10px 0;padding:14px 20px;margin:20px 0}
 .takeaway .cap{font-size:11px;font-weight:700;letter-spacing:2px;color:var(--bar-good);margin-bottom:6px}
 .chart .cap{font-size:12.5px;color:var(--fg2);margin-bottom:10px}
-@media print{nav.toc{display:none}body{font-size:11.5px}main{padding:0}.chart,.tw{break-inside:avoid}h2{break-after:avoid}details.fold .fold-body{display:block}}
+.chart .cap .src{float:right;font-size:11px;color:var(--fg3)}
+tbody tr:hover{background:color-mix(in srgb,var(--card) 85%,var(--cite-d-bg))}
+.pill{display:inline-block;padding:0 9px;border-radius:9px;font-size:12px;font-weight:650}
+.pill-hit{background:var(--cite-e-bg);color:var(--cite-e-fg)}
+.tag{display:inline-block;min-width:15px;text-align:center;margin-right:5px;padding:0 4px;border-radius:4px;font-size:10.5px;font-weight:700}
+.tag-a{background:var(--cite-e-bg);color:var(--cite-e-fg)}
+.tag-b{background:var(--cite-i-bg);color:var(--cite-i-fg)}
+.tag-c{background:var(--code-bg);color:var(--fg2)}
+.tw td code{word-break:break-all}
+.kpi a.c{display:block;text-decoration:none;color:inherit}
+.kpi a.c:hover,.kpi a.c:focus{border-color:var(--cite-d-fg)}
+.prog{position:fixed;top:0;left:0;height:3px;width:0;background:var(--cite-d-fg);z-index:20}
+a.top{position:fixed;right:18px;bottom:18px;width:38px;height:38px;border-radius:50%;background:var(--card);border:1px solid var(--line);color:var(--fg2);text-decoration:none;text-align:center;line-height:36px;font-size:17px;box-shadow:0 2px 8px rgba(0,0,0,.12);z-index:19}
+a.top:hover{color:var(--fg1)}
+@media(max-width:640px){header.hero h1{font-size:21px}.kpi .v{font-size:19px}.anchor{display:none}a.top{right:10px;bottom:10px}}
+@media print{nav.toc,a.top,.prog{display:none}body{font-size:11.5px}main{padding:0}.chart,.tw{break-inside:avoid}h2{break-after:avoid}details.fold .fold-body{display:block}}
 `;
 const toc = [
   ["术语速查", "术语速查"],
@@ -299,13 +322,13 @@ const save1 = (100 - cpu(byCell["ladder_k1_rerun"]) / cpu(byCell["ladder_k1_base
 const inv = analysis.invariance["s_c1_r1_vs_s_c2_r1"];
 const flipPct = (inv.flips_count / inv.killed_x * 100).toFixed(1);
 const kpi = [
-  { v: `${save1}<small>%</small>~${save100}<small>%</small>`, l: "增量模式 CPU 节省", s: "1-100 行改动 · runs.jsonl ladder" },
-  { v: `${flipPct}<small>%</small>`, l: "杀伤判定跨并发翻转率", s: `${inv.flips_count}/${inv.killed_x} · conc1 vs conc2` },
-  { v: `${(contN / usableN * 100).toFixed(0)}<small>%</small>`, l: "历史缺陷被基线直接检出", s: `${contN}/${usableN} · 污染层` },
-  { v: `+${deltaPP}<small>pp</small>`, l: "变异引导写手的分数增益", s: `${baseS.score_pct_covered}→${aMax}% · scores.jsonl` },
-  { v: `0`, l: "真缺陷检出增益（A vs B）", s: "0/5 vs 1/5 · McNemar p=1.0" },
+  { v: `${save1}<small>%</small>~${save100}<small>%</small>`, l: "增量模式 CPU 节省", s: "1-100 行改动 · runs.jsonl ladder", href: "#4-成本实测-rq1" },
+  { v: `${flipPct}<small>%</small>`, l: "杀伤判定跨并发翻转率", s: `${inv.flips_count}/${inv.killed_x} · conc1 vs conc2`, href: "#6-陷阱清单-部署前必读" },
+  { v: `${(contN / usableN * 100).toFixed(0)}<small>%</small>`, l: "历史缺陷被基线直接检出", s: `${contN}/${usableN} · 污染层`, href: "#5-收益实测-rq2" },
+  { v: `+${deltaPP}<small>pp</small>`, l: "变异引导写手的分数增益", s: `${baseS.score_pct_covered}→${aMax}% · scores.jsonl`, href: "#5-4-变异分数增益-次要机械比较" },
+  { v: `0`, l: "真缺陷检出增益（A vs B）", s: "0/5 vs 1/5 · McNemar p=1.0", href: "#8-结论" },
 ];
-const kpiHtml = `<section class="kpi">${kpi.map((k) => `<div class="c"><div class="v">${k.v}</div><div class="l">${k.l}</div><div class="s">${k.s}</div></div>`).join("")}</section>`;
+const kpiHtml = `<section class="kpi">${kpi.map((k) => `<a class="c" href="${k.href}"><div class="v">${k.v}</div><div class="l">${k.l}</div><div class="s">${k.s}</div></a>`).join("")}</section>`;
 
 const html = `<!DOCTYPE html>
 <html lang="zh-CN">
@@ -319,10 +342,48 @@ const html = `<!DOCTYPE html>
 <nav class="toc"><div class="in">${toc.map(([id, t]) => `<a href="#${id}">${t}</a>`).join("")}</div></nav>
 <main>
 <header class="hero"><h1>变异测试调研与可落地分析报告</h1><div class="sub">StrykerJS 实测版 · 证据三级背书 · 数字由构建脚本从 exp/ 源数据生成 · 重建命令 <code>node exp/report/build-report.js</code></div>
-<div class="legend"><span class="cite cite-e">实测</span>本机实验 <span class="cite cite-d">官方</span>Stryker 文档 / API <span class="cite cite-i">推断</span>证据外推 <span class="path">5 分钟版：第 1 章 + 第 8 章</span></div></header>
+<div class="legend"><span class="cite cite-e">实测</span>本机实验 <span class="cite cite-d">官方</span>Stryker 文档 / API <span class="cite cite-i">推断</span>证据外推 <span class="path">5 分钟版：<a href="#1-摘要与决策矩阵">第 1 章</a> + <a href="#8-结论">第 8 章</a></span></div></header>
 ${kpiHtml}
 ${htmlBody}
 </main>
+<a class="top" href="#" aria-label="返回顶部">↑</a>
+<div class="prog" aria-hidden="true"></div>
+<script>
+(function () {
+  var links = Array.prototype.slice.call(document.querySelectorAll("nav.toc a"));
+  var map = {};
+  links.forEach(function (l) { map[l.getAttribute("href").slice(1)] = l; });
+  var io = new IntersectionObserver(function (es) {
+    es.forEach(function (e) {
+      if (e.isIntersecting) {
+        links.forEach(function (l) { l.classList.remove("on"); });
+        var l = map[e.target.id];
+        if (l) l.classList.add("on");
+      }
+    });
+  }, { rootMargin: "-15% 0px -75% 0px" });
+  Array.prototype.forEach.call(document.querySelectorAll("h2[id]"), function (h) { io.observe(h); });
+  var prog = document.querySelector(".prog");
+  function onScroll() {
+    var d = document.documentElement;
+    var p = d.scrollTop / (d.scrollHeight - d.clientHeight || 1);
+    prog.style.width = (p * 100).toFixed(2) + "%";
+  }
+  window.addEventListener("scroll", onScroll, { passive: true });
+  onScroll();
+  window.addEventListener("beforeprint", function () {
+    Array.prototype.forEach.call(document.querySelectorAll("details.fold"), function (d) {
+      d.dataset.was = d.open ? "1" : "0";
+      d.open = true;
+    });
+  });
+  window.addEventListener("afterprint", function () {
+    Array.prototype.forEach.call(document.querySelectorAll("details.fold"), function (d) {
+      if (d.dataset.was !== undefined) d.open = d.dataset.was === "1";
+    });
+  });
+})();
+</script>
 </body>
 </html>
 `;
